@@ -1,0 +1,20 @@
+{
+ "survey_crs": "EPSG:32647 - UTM zone 47N on WGS84",
+ "confirmed_by": "satellite imagery identification of the plot",
+ "land_department": {
+  "crs": "Indian 1975 / UTM zone 47N",
+  "proj_string": "+proj=utm +zone=47 +ellps=evrst30 +towgs84=210,814,289,0,0,0,0",
+  "shift_from_wgs84_m": {
+   "east": -334,
+   "north": 300,
+   "total": 621
+  },
+  "warning": "never paste DOLCAD numbers onto a WGS84 map without converting. Corrected, the DOLCAD parcel overlaps the landlord lat/long parcel by 64%."
+ },
+ "local_frame": {
+  "origin": "P5",
+  "u_bearing_deg": 289.87,
+  "v_bearing_deg": 199.87,
+  "note": "u runs west-north-west across the plot, v runs south-south-west. Used by the drawings: u increases LEFTWARD on plan."
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "building": "studio house",
+ "description": "A music studio and second dwelling on the lowest part of the plot, floating entirely on short posts with no earthworks. Long and thin with its length on the contour - that is what makes it work. Across only 5 m of width the ground falls 1.55 m, so the posts stay short and 4.14 m of headroom survives under the height limit. Turn the same area into a square and the drop doubles and the headroom disappears.",
+ "footprint_m": [
+  16,
+  5
+ ],
+ "area_m2": 80,
+ "position": {
+  "local_u": 33.5,
+  "local_v": 17.5,
+  "rotation_deg": 15,
+  "note": "long axis on the contour"
+ },
+ "deck_level_m": 85.9,
+ "posts": {
+  "range_m": [
+   0.3,
+   1.86
+  ]
+ },
+ "ground_under_m": [
+  84.05,
+  85.6
+ ],
+ "headroom_m": 4.14,
+ "earthworks": "none",
+ "alternative_for_100_m2": {
+  "layout": "two decks of 10 x 5 linked by a bridge",
+  "drop_under_each_m": 1.8,
+  "posts_m": 2.1,
+  "headroom_m": 3.9
+ },
+ "why_not_100_m2_in_one": "a 12 x 8.3 footprint spans 3.24 m of drop, needs a 3.54 m post and leaves 2.46 m - no ceiling. The largest single floating platform here is about 80 m2, and only as a bar."
+}

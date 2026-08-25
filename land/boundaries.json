@@ -1,0 +1,169 @@
+{
+ "lease_plot": {
+  "markers": [
+   {
+    "id": "P5",
+    "easting": 609458.025,
+    "northing": 1077934.394,
+    "elev": 96.62,
+    "lat": 9.7500103,
+    "lon": 99.9979443,
+    "note": "highest corner, north end of the road edge"
+   },
+   {
+    "id": "P7",
+    "easting": 609420.41,
+    "northing": 1077947.99,
+    "elev": 88.32,
+    "lat": 9.7501342,
+    "lon": 99.9976017,
+    "note": "north-west corner"
+   },
+   {
+    "id": "P8",
+    "easting": 609407.61,
+    "northing": 1077925.59,
+    "elev": 80.35,
+    "lat": 9.749932,
+    "lon": 99.9974845,
+    "note": "lowest corner, south-west"
+   },
+   {
+    "id": "P9",
+    "easting": 609445.62,
+    "northing": 1077912.69,
+    "elev": 93.65,
+    "lat": 9.7498143,
+    "lon": 99.9978306,
+    "note": "south end of the road edge"
+   }
+  ],
+  "area_m2": 1000.8,
+  "sides_m": [
+   40.0,
+   25.8,
+   40.14,
+   25.0
+  ],
+  "perimeter_m": 130.93,
+  "road_edge": "P9 to P5",
+  "road_bearing_deg": 29.75,
+  "road_length_m": 25.0
+ },
+ "landlord_parcel": {
+  "source": "coordinates supplied by the lessor",
+  "vertices": [
+   {
+    "i": 1,
+    "lat": 9.749000716534042,
+    "lon": 99.99753948301077,
+    "easting": 609413.949,
+    "northing": 1077822.629
+   },
+   {
+    "i": 2,
+    "lat": 9.74912793375704,
+    "lon": 99.99785330146551,
+    "easting": 609448.332,
+    "northing": 1077836.798
+   },
+   {
+    "i": 3,
+    "lat": 9.748210316492226,
+    "lon": 99.99971978366375,
+    "easting": 609653.374,
+    "northing": 1077735.935
+   },
+   {
+    "i": 4,
+    "lat": 9.749519498151855,
+    "lon": 100.00026997178793,
+    "easting": 609713.299,
+    "northing": 1077880.879
+   },
+   {
+    "i": 5,
+    "lat": 9.75105270789709,
+    "lon": 100.00101931393147,
+    "easting": 609794.996,
+    "northing": 1078050.662
+   },
+   {
+    "i": 6,
+    "lat": 9.75174727602588,
+    "lon": 99.99826937913895,
+    "easting": 609493.119,
+    "northing": 1078126.574
+   },
+   {
+    "i": 7,
+    "lat": 9.750709388482678,
+    "lon": 99.99769739806652,
+    "easting": 609430.715,
+    "northing": 1078011.622
+   },
+   {
+    "i": 8,
+    "lat": 9.7504499987003,
+    "lon": 99.99771013855934,
+    "easting": 609432.197,
+    "northing": 1077982.943
+   },
+   {
+    "i": 9,
+    "lat": 9.750069339698873,
+    "lon": 99.99759145081043,
+    "easting": 609419.302,
+    "northing": 1077940.812
+   },
+   {
+    "i": 10,
+    "lat": 9.74977954952537,
+    "lon": 99.99756569698248,
+    "easting": 609416.571,
+    "northing": 1077908.759
+   },
+   {
+    "i": 11,
+    "lat": 9.749617637004052,
+    "lon": 99.99734837561846,
+    "easting": 609392.785,
+    "northing": 1077890.785
+   },
+   {
+    "i": 12,
+    "lat": 9.749335115987776,
+    "lon": 99.99748349189758,
+    "easting": 609407.699,
+    "northing": 1077859.588
+   },
+   {
+    "i": 13,
+    "lat": 9.74901624695088,
+    "lon": 99.99737184494734,
+    "easting": 609395.555,
+    "northing": 1077824.292
+   }
+  ],
+  "area_m2": 95112.0,
+  "area_rai": 59.45,
+  "lessor_claim_rai": 60
+ },
+ "overlap": {
+  "inside_m2": 866.6,
+  "inside_pct": 86.6,
+  "outside_m2": 134.2,
+  "markers": {
+   "P5": "inside by 38.91 m",
+   "P7": "OUTSIDE by 1.04 m",
+   "P8": "OUTSIDE by 10.36 m",
+   "P9": "inside by 28.61 m"
+  }
+ },
+ "corridor_road_to_boundary_m": {
+  "sw_end": 24.5,
+  "at_P9": 32.0,
+  "40m_northeast": 43.5
+ },
+ "kami_blue_house": "outside the landlord parcel by 40 m, confirmed against the lessor's own coordinates"
+}

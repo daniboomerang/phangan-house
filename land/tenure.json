@@ -1,0 +1,20 @@
+{
+ "document": "Sor Kor 1 - preliminary possession, not full title",
+ "chanote": {
+  "status": "in process, converting from Sor Kor 1",
+  "area": "0-2-50 rai = 1,000 m2"
+ },
+ "lease": {
+  "registered": "14 February 2025",
+  "escape_clause": "if the chanote is not issued within 2 years of application, the lessee may terminate and claim remaining rent",
+  "note": "lessor name and contract number kept out of the public repo; add locally if needed"
+ },
+ "walking_survey": {
+  "programme": "\u0e40\u0e14\u0e34\u0e19\u0e2a\u0e33\u0e23\u0e27\u0e08\u0e2d\u0e2d\u0e01\u0e42\u0e09\u0e19\u0e14, Surat Thani",
+  "field_work": "Nov 2025 - Jul 2026",
+  "markers_set": "Nov 2025 - Aug 2026",
+  "delivery_to_land_offices": "by 30 September 2026",
+  "note": "Land Department officers came from Bangkok in May 2026 and set concrete markers"
+ },
+ "critical": "Zone 3(a) permits building ONLY on land privately owned or lawfully possessed before the 2014 notification. Sor Kor 1 filings date from the 1950s so it should qualify - but this is the gate. Confirm the exact application date with the lawyer."
+}

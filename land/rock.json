@@ -1,0 +1,39 @@
+{
+ "main_scarp": {
+  "length_m": 11.8,
+  "orientation": "north-south",
+  "face_height_m": [
+   2.44,
+   3.34
+  ],
+  "steepest_pct": 124,
+  "note": "near vertical at the south end. SH points are the top edge, BRK the foot."
+ },
+ "top_line_elev_m": [
+  87.87,
+  89.75
+ ],
+ "nw_outcrop": {
+  "easting": [
+   609420,
+   609424
+  ],
+  "northing": [
+   1077943,
+   1077946
+  ],
+  "note": "small, at or near P7"
+ },
+ "usable": {
+  "ledge_width_m": 3.0,
+  "note": "the main ledge is only about 3 m wide - too narrow to sit the shala on top"
+ },
+ "pool": {
+  "position": "against the inland face of the scarp",
+  "elev_m": [
+   89,
+   92
+  ],
+  "note": "2 to 3 m below the family house courtyard, so you look over it to the sunset"
+ }
+}

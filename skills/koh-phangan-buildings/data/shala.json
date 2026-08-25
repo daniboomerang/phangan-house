@@ -1,0 +1,34 @@
+{
+ "building": "shala",
+ "description": "A 6 x 6 m open meditation pavilion on nine posts, on the lower half of the plot. No walls, no earthworks - it floats over ground that drops 2.74 m beneath it. Low and wide rather than tall: the height limit measured from the low corner leaves only 2.91 m above the deck, so the roof is shallow. That suits it - a platform 3 m in the air looking at the sunset does not want a tall roof.",
+ "footprint_m": [
+  6,
+  6
+ ],
+ "area_m2": 36,
+ "position": {
+  "local_u": 33.5,
+  "local_v": 7.5,
+  "note": "local frame from P5; see koh-phangan-land"
+ },
+ "deck_level_m": 90.55,
+ "deck_rule": "highest corner plus 0.35 m, so the deck is level",
+ "posts": {
+  "count": 9,
+  "heights_m": {
+   "NE_uphill": 0.35,
+   "NW": 1.25,
+   "SE": 2.39,
+   "SW_downhill": 3.09
+  },
+  "ground_drop_under_deck_m": 2.74
+ },
+ "roof": {
+  "type": "low pitch",
+  "height_above_deck_m": 2.91,
+  "total_base_of_low_post_to_ridge_m": 6.29,
+  "constraint": "the 6 m is measured from the LOW corner, so post height and roof height compete"
+ },
+ "earthworks": "none. Nine footings.",
+ "why_not_on_the_rock": "the main ledge is only about 3 m wide"
+}

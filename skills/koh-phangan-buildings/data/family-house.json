@@ -1,0 +1,251 @@
+{
+ "name": "C-house",
+ "footprint": {
+  "depth_m": 14,
+  "width_m": 14
+ },
+ "orientation": {
+  "courtyard_opens_bearing_deg": 274.0,
+  "rule": "set this to the view direction, but check the cross-fall: the width axis should sit close to the contour or every bench tilts sideways"
+ },
+ "grid": {
+  "depth_bands": [
+   {
+    "from": 0,
+    "to": 4,
+    "name": "base band"
+   },
+   {
+    "from": 4,
+    "to": 9,
+    "name": "rooms 1"
+   },
+   {
+    "from": 9,
+    "to": 14,
+    "name": "rooms 2"
+   }
+  ],
+  "width_bands": [
+   {
+    "from": 0,
+    "to": 4,
+    "name": "left arm"
+   },
+   {
+    "from": 4,
+    "to": 10,
+    "name": "courtyard"
+   },
+   {
+    "from": 10,
+    "to": 14,
+    "name": "right arm"
+   }
+  ]
+ },
+ "levels": {
+  "one_bench_per_depth_band": true,
+  "max_cut_m": 1.0,
+  "rule": "floor of each bench = highest natural ground under that bench minus max_cut"
+ },
+ "ground_floor": [
+  {
+   "cell": "base band / left arm",
+   "use": "kitchen",
+   "open_to_roof": true
+  },
+  {
+   "cell": "base band / courtyard",
+   "use": "dining",
+   "under": "platform"
+  },
+  {
+   "cell": "base band / right arm",
+   "use": "entrance 1 m, storage 3x2, toilet 3x2",
+   "under": "bath"
+  },
+  {
+   "cell": "rooms 1 / left arm",
+   "use": "room 4x5",
+   "open_to_roof": true,
+   "access": "inside, from the kitchen"
+  },
+  {
+   "cell": "rooms 1 / right arm",
+   "use": "room or bathroom 4x5",
+   "under": "bedroom",
+   "access": "inside, from the entrance"
+  },
+  {
+   "cell": "rooms 2 / left arm",
+   "use": "room 4x5",
+   "open_to_roof": true,
+   "access": "outside, own door onto the path"
+  },
+  {
+   "cell": "rooms 2 / right arm",
+   "use": "room 4x5",
+   "under": "terrace",
+   "access": "outside, own door onto the path"
+  }
+ ],
+ "second_floor": {
+  "on": "right arm and base band",
+  "ceiling_m": 2.3,
+  "slab_m": 0.18,
+  "spaces": [
+   {
+    "name": "platform",
+    "depth": [
+     0,
+     4
+    ],
+    "note": "sofas, TV, stair down; surface continues as a corridor to the bedroom door"
+   },
+   {
+    "name": "bath 3x3",
+    "depth": [
+     0,
+     3
+    ],
+    "level": "platform"
+   },
+   {
+    "name": "dressing 2x2",
+    "depth": [
+     3,
+     5
+    ],
+    "level": "platform",
+    "note": "open, no wall or door"
+   },
+   {
+    "name": "bedroom 4x6",
+    "depth": [
+     4,
+     10
+    ],
+    "level": "lower"
+   },
+   {
+    "name": "terrace 4x4",
+    "depth": [
+     10,
+     14
+    ],
+    "level": "lower",
+    "open": true
+   }
+  ],
+  "stairs": [
+   {
+    "where": "corridor end, into the bedroom",
+    "risers": 5,
+    "drop_m": 0.88
+   }
+  ],
+  "ground_ceiling_under_m": 2.55,
+  "terrace_level": "same as the bedroom, i.e. the second-floor level of the middle band"
+ },
+ "main_stair": {
+  "from": "base band",
+  "to": "platform",
+  "risers": 15,
+  "riser_m": 0.182,
+  "tread_m": 0.26,
+  "run_m": 3.64,
+  "position": "along the road edge of the dining band"
+ },
+ "openings": {
+  "sliding_glass": [
+   {
+    "where": "dining to courtyard",
+    "size_m": [
+     5.7,
+     2.4
+    ]
+   },
+   {
+    "where": "platform to courtyard",
+    "size_m": [
+     5.7,
+     2.1
+    ]
+   }
+  ],
+  "full_glass": [
+   {
+    "where": "bedroom to terrace",
+    "size_m": [
+     3.5,
+     2.1
+    ]
+   }
+  ],
+  "doors": [
+   {
+    "where": "front, in the entrance strip",
+    "size_m": [
+     1.1,
+     2.3
+    ]
+   },
+   {
+    "where": "far rooms, onto the path",
+    "size_m": [
+     1.2,
+     2.3
+    ],
+    "count": 2
+   }
+  ],
+  "gable_glass": [
+   {
+    "where": "sunset end, each arm",
+    "size_m": [
+     3.2,
+     2.75
+    ]
+   }
+  ],
+  "portholes": [
+   {
+    "where": "platform, facing the road",
+    "diameter_m": 2.1
+   },
+   {
+    "where": "left arm, one per room",
+    "diameter_m": 1.76,
+    "count": 3
+   },
+   {
+    "where": "right arm, one per room",
+    "diameter_m": 1.6,
+    "count": 3
+   },
+   {
+    "where": "master bedroom outer face",
+    "diameter_m": 1.44
+   }
+  ]
+ },
+ "yard": {
+  "terraced_to_room_levels": true,
+  "paving": "1.2 m strip against every inner wall only",
+  "stairs": "inside the paving width only, 5 risers per run",
+  "middle": "planted, no concrete"
+ },
+ "roof": {
+  "thickness_m": 0.4,
+  "eaves_m": 0.75,
+  "flat": true,
+  "rule": "each roof sits on its own 6 m envelope; roofs step with the benches"
+ },
+ "left_arm": {
+  "open_to_roof": true,
+  "ceiling_rule": "lowest natural ground in that band, plus the height limit, minus floor, minus roof thickness"
+ },
+ "building": "family house",
+ "description": "The main dwelling. A C-shaped house of 14 x 14 m wrapping a 6 x 10 m courtyard that opens west to the sunset, with the base band along the road. Three stepped floors follow the hill. One arm runs open to its roof at 4.6-4.9 m; the other carries a second floor with the master suite, dressing, 3 x 3 bath and a 4 x 4 open terrace, plus the platform over the base band. NOTE: at 136 m2 of ground coverage this exceeds the 90 m2 cap. It stands as the design intent; whether it can be built depends on the building-count question in thai-hillside-law."
+}

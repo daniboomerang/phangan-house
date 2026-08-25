@@ -1,0 +1,58 @@
+{
+ "elevation": {
+  "min_m": 80.35,
+  "max_m": 96.62,
+  "fall_m": 16.27,
+  "mean_m": 89.4,
+  "min_at": "P8, south-west corner",
+  "max_at": "P5, road corner"
+ },
+ "slope": {
+  "mean_pct_tin": 38.9,
+  "surveyor_stated_pct": 41.1,
+  "best_fit_plane_pct": 32.2,
+  "note": "38.9 is area-weighted over a Delaunay mesh of the 29 points inside the boundary. The plane is gentler because the surface undulates."
+ },
+ "aspect": {
+  "fall_line_bearing_deg": 247.7,
+  "contour_bearing_deg": 337.7,
+  "note": "the road bears 29.75, which is 52 degrees off the contour. Building parallel to the road means crossing the slope."
+ },
+ "slope_bands_pct_of_plot": {
+  "under_20": 14.0,
+  "20_to_35": 34.7,
+  "35_to_50": 31.9,
+  "over_50": 19.4,
+  "note": "19.4% of the plot is over 50% and cannot legally be built on at all"
+ },
+ "survey_coverage": {
+  "easting": [
+   609408,
+   609460
+  ],
+  "northing": [
+   1077913,
+   1077948
+  ],
+  "extent_m": "about 52 x 35",
+  "warning": "anything outside this window is extrapolation and must be labelled as such. Candidate re-negotiated parcels to the north-east are only 28-37% covered."
+ },
+ "contour_interval_m": 0.25,
+ "best_pad_14x14": {
+  "easting": 609443.5,
+  "northing": 1077930.0,
+  "bearing_deg": 274,
+  "fall_under_footprint_m": 3.88,
+  "ground_min": 90.47,
+  "ground_max": 94.35
+ },
+ "sun": {
+  "latitude": 9.75,
+  "sunset_bearing_deg": {
+   "december": 246,
+   "equinox": 270,
+   "june": 294
+  },
+  "view_protection": "eye level about 94.85 m. Anyone below the 80 m contour building the full 12 m tops out at 92 m, 3.8 m below eye level. The horizon and the whole sunset arc are safe."
+ }
+}
