@@ -1,4 +1,4 @@
-# phangan-house
+# land-project
 
 A hillside house on Koh Phangan, built from measured data rather than assumption.
 

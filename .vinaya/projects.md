@@ -16,4 +16,4 @@ is derived from the folder tree.
 
 | Project | Path | Specs | Per-project state |
 |---------|------|-------|---------------------|
-| phangan-house | `.` | `specs/` | (state tracked globally) |
+| land-project | `.` | `specs/` | (state tracked globally) |
