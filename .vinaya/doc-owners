@@ -53,9 +53,5 @@
 # This starter ships empty — no bindings, no no-doc entries. Add your own
 # below this line as your repo grows real code → doc coverage needs.
 
-buildings/*.json                             skills/koh-phangan-buildings/references/the-brief.md
-skills/koh-phangan-buildings/data/*.json     skills/koh-phangan-buildings/references/the-brief.md
 skills/koh-phangan-buildings/scripts/**      skills/koh-phangan-buildings/references/design-history.md
-land/*.json                                  skills/koh-phangan-land/references/survey-history.md
-skills/koh-phangan-land/data/*.json          skills/koh-phangan-land/references/survey-history.md
 skills/koh-phangan-land/scripts/**           skills/koh-phangan-land/references/survey-history.md
